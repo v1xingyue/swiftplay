@@ -1,0 +1,6 @@
+module Pods_swiftplay {
+  umbrella header "Pods-swiftplay-umbrella.h"
+
+  export *
+  module * { export * }
+}
