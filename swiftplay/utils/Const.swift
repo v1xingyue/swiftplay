@@ -10,6 +10,7 @@ import UIKit
 import Foundation
 
 class Const {
-    static let SPFlashInterval =  3.0 // 3秒
-    static let DefaultBackGroundColor = Color.infoBlueColor()
+    static let SPFlashInterval =  1.0 // 3秒
+    static let DefaultBackGroundColor = Color.snowColor()
+    static let DefaultLabelColor = Color.charcoalColor()
 }

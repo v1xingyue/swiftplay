@@ -1,3 +1,5 @@
+// https://github.com/bennyguitar/Colours
+
 
 import Foundation
 #if os(iOS) || os(tvOS)
