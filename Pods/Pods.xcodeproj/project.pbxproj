@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E1C77EF7578C749DF3D8B26ED27FB48 /* Pods-swiftplay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DCF279DF62899B07221F1DE40C4093 /* Pods-swiftplay-dummy.m */; };
+		0F71929778DC683901CF936AA615A3E9 /* Pods-swiftplay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48833AA42FD827DC37E12E5844645404 /* Pods-swiftplay-dummy.m */; };
+		240FD88127B520D9ED46F97412A7DDB4 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E2076946545A7464CF9A75121F083 /* KYDrawerController.swift */; };
+		6496F518937C7D601810C67898469419 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48612CB026CAA6C8947CA4BE5874C24B /* KYDrawerController-dummy.m */; };
+		7D524144C05019242F8E904E25F4CD48 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AF29AEF3A19E55E96748BF482B6237 /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DAA2067212508210C13DC5A6BA7632B /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF7220A0D2DCA828CB9AF7D34351AA /* KYEmbedDrawerControllerSegue.swift */; };
+		8881F74ABC263BD895646FDCCCB481AA /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3550CFF710094AD9EC3F583460D69 /* KYEmbedMainControllerSegue.swift */; };
+		FCBC02C225FFCDBF86A6AECEC3F4A442 /* Pods-swiftplay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0681C7F75FB5F3E149D2DBBC097BF4 /* Pods-swiftplay-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EDD6E8C7322B5A5D6D01EBEA8C1FCDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BBCBDAFBA68F76840AC5B2B6F9A9628;
+			remoteInfo = KYDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		2A80FDADF36AFD76D56F5FF0258A10E6 /* Pods-swiftplay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftplay-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F01464324D8257A9C7CF76937FC040D /* Pods-swiftplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftplay.debug.xcconfig"; sourceTree = "<group>"; };
-		347DBFCA4415719878326B258B7C70EF /* libPods-swiftplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-swiftplay.a"; path = "libPods-swiftplay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		493E94839B95B9BC574580FE5E7173B0 /* Pods-swiftplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftplay.release.xcconfig"; sourceTree = "<group>"; };
-		52DCF279DF62899B07221F1DE40C4093 /* Pods-swiftplay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftplay-dummy.m"; sourceTree = "<group>"; };
+		01464510B1219AB640450F488A8278BE /* libKYDrawerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKYDrawerController.a; path = libKYDrawerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0592A09B5A97CB03BA41A4EC4EABCE6C /* Pods-swiftplay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swiftplay.modulemap"; sourceTree = "<group>"; };
+		07866EC4832B4F3DDF8385211D8D5F9D /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		418EF17992A42D06FA12B663C681397F /* libPods-swiftplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-swiftplay.a"; path = "libPods-swiftplay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48612CB026CAA6C8947CA4BE5874C24B /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		48833AA42FD827DC37E12E5844645404 /* Pods-swiftplay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftplay-dummy.m"; sourceTree = "<group>"; };
+		57AF29AEF3A19E55E96748BF482B6237 /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		589CA40F6D20665F11B4D92D7FFEF084 /* Pods-swiftplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftplay.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0681C7F75FB5F3E149D2DBBC097BF4 /* Pods-swiftplay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swiftplay-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B17C6764785A3AFBA0CD35680B6A7BD4 /* Pods-swiftplay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftplay-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E5E2076946545A7464CF9A75121F083 /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		A3CF7220A0D2DCA828CB9AF7D34351AA /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		C5694E81F597DA95B834872F65D8C4B7 /* Pods-swiftplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftplay.release.xcconfig"; sourceTree = "<group>"; };
+		C6D59B00EBDA069ACDE6716066DED696 /* Pods-swiftplay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftplay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB0837B41FFCB76568F132EBACB7223A /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		E552DAF388A30CC4CCB4A3EFE91B4F06 /* Pods-swiftplay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftplay-acknowledgements.plist"; sourceTree = "<group>"; };
+		E92F7909400BB3C7B3B70EF09ECCB762 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		EEB3550CFF710094AD9EC3F583460D69 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FD2736B36EAEEDEF5E89D75DF527B11 /* Frameworks */ = {
+		19A2959D18A2C0E2281465DFC63FABBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390190213E05CBA36982E5FDD1869533 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,25 +65,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C6450055F09AAAF49C4A40F4478623D /* Products */ = {
+		03DEA895775D5580931980D311AC9239 /* KYDrawerController */ = {
 			isa = PBXGroup;
 			children = (
-				347DBFCA4415719878326B258B7C70EF /* libPods-swiftplay.a */,
+				9E5E2076946545A7464CF9A75121F083 /* KYDrawerController.swift */,
+				A3CF7220A0D2DCA828CB9AF7D34351AA /* KYEmbedDrawerControllerSegue.swift */,
+				EEB3550CFF710094AD9EC3F583460D69 /* KYEmbedMainControllerSegue.swift */,
+				EB514D71E2C70E0DD8636B78C2FB0DD5 /* Support Files */,
 			);
-			name = Products;
+			name = KYDrawerController;
+			path = KYDrawerController;
 			sourceTree = "<group>";
 		};
-		74D4AE39AC1499F29FC780FA10E60DA4 /* Pods-swiftplay */ = {
+		13513A869C7DB063D93F37B8817B6C87 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A80FDADF36AFD76D56F5FF0258A10E6 /* Pods-swiftplay-acknowledgements.markdown */,
-				B17C6764785A3AFBA0CD35680B6A7BD4 /* Pods-swiftplay-acknowledgements.plist */,
-				52DCF279DF62899B07221F1DE40C4093 /* Pods-swiftplay-dummy.m */,
-				2F01464324D8257A9C7CF76937FC040D /* Pods-swiftplay.debug.xcconfig */,
-				493E94839B95B9BC574580FE5E7173B0 /* Pods-swiftplay.release.xcconfig */,
+				F9CCD8E16F468E7E6B97BDF4B4F4583A /* Pods-swiftplay */,
 			);
-			name = "Pods-swiftplay";
-			path = "Target Support Files/Pods-swiftplay";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79875468214BA1A1258D43AD5D332110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01464510B1219AB640450F488A8278BE /* libKYDrawerController.a */,
+				418EF17992A42D06FA12B663C681397F /* libPods-swiftplay.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -57,8 +99,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				5C6450055F09AAAF49C4A40F4478623D /* Products */,
-				FD3EDCE55CD760468DE28CDEF6ED65F3 /* Targets Support Files */,
+				F4E13B7A7348A581ADE0547BB8DCAF12 /* Pods */,
+				79875468214BA1A1258D43AD5D332110 /* Products */,
+				13513A869C7DB063D93F37B8817B6C87 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,42 +112,98 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FD3EDCE55CD760468DE28CDEF6ED65F3 /* Targets Support Files */ = {
+		EB514D71E2C70E0DD8636B78C2FB0DD5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				74D4AE39AC1499F29FC780FA10E60DA4 /* Pods-swiftplay */,
+				E92F7909400BB3C7B3B70EF09ECCB762 /* KYDrawerController.modulemap */,
+				07866EC4832B4F3DDF8385211D8D5F9D /* KYDrawerController.xcconfig */,
+				48612CB026CAA6C8947CA4BE5874C24B /* KYDrawerController-dummy.m */,
+				DB0837B41FFCB76568F132EBACB7223A /* KYDrawerController-prefix.pch */,
+				57AF29AEF3A19E55E96748BF482B6237 /* KYDrawerController-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		F4E13B7A7348A581ADE0547BB8DCAF12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03DEA895775D5580931980D311AC9239 /* KYDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9CCD8E16F468E7E6B97BDF4B4F4583A /* Pods-swiftplay */ = {
+			isa = PBXGroup;
+			children = (
+				0592A09B5A97CB03BA41A4EC4EABCE6C /* Pods-swiftplay.modulemap */,
+				C6D59B00EBDA069ACDE6716066DED696 /* Pods-swiftplay-acknowledgements.markdown */,
+				E552DAF388A30CC4CCB4A3EFE91B4F06 /* Pods-swiftplay-acknowledgements.plist */,
+				48833AA42FD827DC37E12E5844645404 /* Pods-swiftplay-dummy.m */,
+				9C0681C7F75FB5F3E149D2DBBC097BF4 /* Pods-swiftplay-umbrella.h */,
+				589CA40F6D20665F11B4D92D7FFEF084 /* Pods-swiftplay.debug.xcconfig */,
+				C5694E81F597DA95B834872F65D8C4B7 /* Pods-swiftplay.release.xcconfig */,
+			);
+			name = "Pods-swiftplay";
+			path = "Target Support Files/Pods-swiftplay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04A55D8BECB25638A482881F962644B9 /* Headers */ = {
+		37B0041C4E23FA009F2B54D02E4F3F5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBC02C225FFCDBF86A6AECEC3F4A442 /* Pods-swiftplay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE713826F571E141421B0998FED0F9F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D524144C05019242F8E904E25F4CD48 /* KYDrawerController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C11929E53FB71F48A5EE35C9DC938347 /* Pods-swiftplay */ = {
+		0BBCBDAFBA68F76840AC5B2B6F9A9628 /* KYDrawerController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BD2BC2D239D5F393A263615AE6B9951 /* Build configuration list for PBXNativeTarget "Pods-swiftplay" */;
+			buildConfigurationList = BBD91B9EC57B5F77C65002F333A102DB /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
 			buildPhases = (
-				04A55D8BECB25638A482881F962644B9 /* Headers */,
-				5632F42338322D85FA8C294D4399E69B /* Sources */,
-				9FD2736B36EAEEDEF5E89D75DF527B11 /* Frameworks */,
+				CE713826F571E141421B0998FED0F9F7 /* Headers */,
+				2C71E6B31F82FC4B24C92CACF20C2657 /* Sources */,
+				19A2959D18A2C0E2281465DFC63FABBA /* Frameworks */,
+				464D2EDF639D4D1A270CC4E5D45E6138 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = 01464510B1219AB640450F488A8278BE /* libKYDrawerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C11929E53FB71F48A5EE35C9DC938347 /* Pods-swiftplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F01A849F65D363654E76D36B4DD1B8 /* Build configuration list for PBXNativeTarget "Pods-swiftplay" */;
+			buildPhases = (
+				37B0041C4E23FA009F2B54D02E4F3F5E /* Headers */,
+				904E44D1697A153C4919B521E62EA63B /* Sources */,
+				390190213E05CBA36982E5FDD1869533 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE67307F1DE54F52ED3F80978A5045AA /* PBXTargetDependency */,
+			);
 			name = "Pods-swiftplay";
 			productName = "Pods-swiftplay";
-			productReference = 347DBFCA4415719878326B258B7C70EF /* libPods-swiftplay.a */;
+			productReference = 418EF17992A42D06FA12B663C681397F /* libPods-swiftplay.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -124,25 +223,73 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5C6450055F09AAAF49C4A40F4478623D /* Products */;
+			productRefGroup = 79875468214BA1A1258D43AD5D332110 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				0BBCBDAFBA68F76840AC5B2B6F9A9628 /* KYDrawerController */,
 				C11929E53FB71F48A5EE35C9DC938347 /* Pods-swiftplay */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		464D2EDF639D4D1A270CC4E5D45E6138 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/KYDrawerController/KYDrawerController.modulemap",
+				"${PODS_ROOT}/Headers/Public/KYDrawerController/KYDrawerController-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KYDrawerController/KYDrawerController.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KYDrawerController/KYDrawerController-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5632F42338322D85FA8C294D4399E69B /* Sources */ = {
+		2C71E6B31F82FC4B24C92CACF20C2657 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1C77EF7578C749DF3D8B26ED27FB48 /* Pods-swiftplay-dummy.m in Sources */,
+				6496F518937C7D601810C67898469419 /* KYDrawerController-dummy.m in Sources */,
+				240FD88127B520D9ED46F97412A7DDB4 /* KYDrawerController.swift in Sources */,
+				7DAA2067212508210C13DC5A6BA7632B /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				8881F74ABC263BD895646FDCCCB481AA /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904E44D1697A153C4919B521E62EA63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F71929778DC683901CF936AA615A3E9 /* Pods-swiftplay-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE67307F1DE54F52ED3F80978A5045AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 0BBCBDAFBA68F76840AC5B2B6F9A9628 /* KYDrawerController */;
+			targetProxy = EDD6E8C7322B5A5D6D01EBEA8C1FCDFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		16FD0648F06E4A022961C9516E16703A /* Release */ = {
@@ -269,9 +416,60 @@
 			};
 			name = Debug;
 		};
-		C947906FB7B17D27A185870D4970AC0D /* Debug */ = {
+		7006C256DC8F53C3EC49D01AB0D4EBE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F01464324D8257A9C7CF76937FC040D /* Pods-swiftplay.debug.xcconfig */;
+			baseConfigurationReference = 07866EC4832B4F3DDF8385211D8D5F9D /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KYDrawerController/KYDrawerController.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KYDrawerController;
+				PRODUCT_NAME = KYDrawerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B6EBF22CBE0A7004690EF4CF76D2E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07866EC4832B4F3DDF8385211D8D5F9D /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/KYDrawerController/KYDrawerController.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KYDrawerController;
+				PRODUCT_NAME = KYDrawerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D2C8DB7210BB1E4C75F2102F41FC4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589CA40F6D20665F11B4D92D7FFEF084 /* Pods-swiftplay.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -281,6 +479,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swiftplay/Pods-swiftplay.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -291,9 +490,9 @@
 			};
 			name = Debug;
 		};
-		E3940604601945DAE51D584431EF1507 /* Release */ = {
+		A99E13A75AA8A414540085A99A50F62A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 493E94839B95B9BC574580FE5E7173B0 /* Pods-swiftplay.release.xcconfig */;
+			baseConfigurationReference = C5694E81F597DA95B834872F65D8C4B7 /* Pods-swiftplay.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -303,6 +502,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swiftplay/Pods-swiftplay.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -317,20 +517,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BD2BC2D239D5F393A263615AE6B9951 /* Build configuration list for PBXNativeTarget "Pods-swiftplay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C947906FB7B17D27A185870D4970AC0D /* Debug */,
-				E3940604601945DAE51D584431EF1507 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DB13D3FAE987D20610ACD677A28C6E8 /* Debug */,
 				16FD0648F06E4A022961C9516E16703A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F01A849F65D363654E76D36B4DD1B8 /* Build configuration list for PBXNativeTarget "Pods-swiftplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2C8DB7210BB1E4C75F2102F41FC4F0 /* Debug */,
+				A99E13A75AA8A414540085A99A50F62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD91B9EC57B5F77C65002F333A102DB /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6EBF22CBE0A7004690EF4CF76D2E5C /* Debug */,
+				7006C256DC8F53C3EC49D01AB0D4EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
