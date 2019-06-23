@@ -1,5 +1,5 @@
 //
-//  Terminal.swift
+//  kYDrawerController.swift
 //  swiftplay
 //
 //  Created by xingyue on 2019/6/21.
@@ -7,14 +7,16 @@
 //
 
 import Foundation
+import UIKit
 
-class TerminalController : BaseViewController {
+class AboutViewController: BaseViewController {
     
     override func viewDidLoad() {
-        view.backgroundColor = Const.DefaultBackGroundColor
+        super.viewDidLoad()
+        
+        view.backgroundColor = UIColor.snowColor()
+        title = "- Swift Play About -"
         self.setSlideButton()
-        title = "- Terminal Controller -"
     }
-    
     
 }

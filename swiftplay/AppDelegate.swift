@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func makeKYDrawerController() -> UIViewController {
-        let mainViewController   = MainViewController()
+        let mainViewController   = ViewController()
         let drawerViewController = DrawerViewController()
         let drawerController     = KYDrawerController(drawerDirection: .left, drawerWidth: 300)
         

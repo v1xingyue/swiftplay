@@ -22,6 +22,8 @@ class ViewController: BaseViewController {
         
         
         self.view.addSubview(clabel)
+        
+        self.setSlideButton()
     }
 
 

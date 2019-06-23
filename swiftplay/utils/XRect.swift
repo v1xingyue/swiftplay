@@ -52,9 +52,11 @@ class  XRect  {
         return CGPoint(x:xsize.width/2 + offset.x ,y:xsize.height/2 + offset.y)
     }
     
-    
     // 设置居中的一个CGRect
-    static func centerFrame(size: CGPoint,position:CGPoint) -> CGRect {
+    // size 大小
+    // position 位置信息， x，y 为0 表示居中
+    // offset 偏移信息
+    static func centerFrame(size: CGPoint,position:CGPoint,offset:CGPoint) -> CGRect {
         let xsize = XRect.screenSize()
         var nsize = size
         var nposition = position
@@ -73,6 +75,15 @@ class  XRect  {
         if nposition.y < 0 {
             nposition.y = xsize.height + nposition.y
         }
+        
+        if offset.x != 0 {
+            nposition.x += offset.x
+        }
+        
+        if offset.y != 0 {
+            nposition.y += offset.y
+        }
+        
         var x = xsize.width / 2 - nsize.x / 2
         var y = xsize.height / 2 - nsize.y / 2
         if nposition.x != 0 {
@@ -81,92 +92,24 @@ class  XRect  {
         if nposition.y != 0 {
             y = nposition.y
         }
+        
+       
         return CGRect(x: x, y: y, width: nsize.x, height: nsize.y)
     }
+    
+    
+    static func centerFrame(size: CGPoint) -> CGRect {
+        return XRect.centerFrame(size: size, position: CGPoint(x: 0, y: 0))
+    }
+    
+    
+    static func centerFrame(size: CGPoint,position:CGPoint) -> CGRect {
+      return XRect.centerFrame(size: size, position: position, offset: CGPoint(x: 0, y: 0))
+    }
    
-/*
- 
-     
- 
- + (CGRect)xCenterFrame:(float)w :(float)h :(float)y {
- CGSize xsize = [Frame screenSize];
- CGSize lsize = [Frame makeSize:w :h];
- float x = xsize.width/2 - lsize.width/2;
- if(y <= 0 ){
- y = xsize.height + y;
- }
- return CGRectMake(x, y, lsize.width, lsize.height);
- }
- 
- + (CGRect)xLeftFrame:(float)w :(float)h :(float)y : (float)left {
- CGSize xsize = [Frame screenSize];
- CGSize lsize = [Frame makeSize:w :h];
- float x = left;
- 
- if(left < 0){
- x = xsize.width + left;
- }
- 
- if(y <= 0 ){
- y = xsize.height + y;
- }
- return CGRectMake(x, y, lsize.width, lsize.height);
- }
- 
- 
- + (CGRect)xCenterFrame:(float)w :(float)h :(float)y offset:(float)offset{
- CGSize xsize = [Frame screenSize];
- CGSize lsize = [Frame makeSize:w :h];
- float x = xsize.width/2 - lsize.width/2;
- if(y <= 0 ){
- y = xsize.height + y;
- }
- return CGRectMake(x + offset, y, lsize.width, lsize.height);
- }
- 
- 
- 
- + (CGRect)yCenterFrame:(float)w :(float)h :(float)x {
- CGSize xsize = [Frame screenSize];
- CGSize lsize = [Frame makeSize:w :h];
- float y = xsize.height/2 - lsize.height/2;
- return CGRectMake(x, y, lsize.width, lsize.height);
- }
- 
- + (CGRect)centerFrame:(float)w :(float)h {
- CGSize xsize = [Frame screenSize];
- CGSize lsize = [Frame makeSize:w :h];
- float y = xsize.height/2 - lsize.height/2;
- float x = xsize.width/2 - lsize.width/2;
- return CGRectMake(x, y, lsize.width, lsize.height);
- }
- 
- + (CGPoint)xCenterPoint:(float)y {
- CGSize xsize = [Frame screenSize];
- if(y<=0){
- y = xsize.height + y;
- }
- return CGPointMake(xsize.width / 2 , y);
- }
- 
- + (CGPoint)yCenterPoint:(float)x {
- CGSize xsize = [Frame screenSize];
- if(x<=0){
- x = xsize.width + x;
- }
- return CGPointMake(x,xsize.height/2);
- }
- 
- + (CGPoint)centerPoint {
- CGSize xsize = [Frame screenSize];
- return CGPointMake(xsize.width/2, xsize.height/2);
- }
- 
- + (CGRect)frameMove:(CGRect)from :(float)left :(float)top {
- from.origin.x += left;
- from.origin.y += top;
- return from;
- }
- */
+    
+    static func centerFrame(size: CGPoint,offset:CGPoint) -> CGRect {
+        return XRect.centerFrame(size: size, position: CGPoint(x: 0, y: 0), offset:offset)
+    }
     
 }

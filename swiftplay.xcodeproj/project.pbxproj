@@ -17,7 +17,8 @@
 		8915145422BA456E0095C3AD /* XRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915145322BA456E0095C3AD /* XRect.swift */; };
 		8915145622BA561A0095C3AD /* ExColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915145522BA561A0095C3AD /* ExColours.swift */; };
 		8970531722BCFABD0045C6C8 /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970531622BCFABD0045C6C8 /* Terminal.swift */; };
-		89E8B10F22BCDBE300CE1408 /* kYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8B10E22BCDBE300CE1408 /* kYDrawerController.swift */; };
+		897053DD22BE03220045C6C8 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897053DC22BE03220045C6C8 /* DrawerViewController.swift */; };
+		89E8B10F22BCDBE300CE1408 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,8 @@
 		8915145322BA456E0095C3AD /* XRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRect.swift; sourceTree = "<group>"; };
 		8915145522BA561A0095C3AD /* ExColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExColours.swift; sourceTree = "<group>"; };
 		8970531622BCFABD0045C6C8 /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
-		89E8B10E22BCDBE300CE1408 /* kYDrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kYDrawerController.swift; sourceTree = "<group>"; };
+		897053DC22BE03220045C6C8 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D32526880F06A23A47DCF993 /* Pods-swiftplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftplay.debug.xcconfig"; path = "Target Support Files/Pods-swiftplay/Pods-swiftplay.debug.xcconfig"; sourceTree = "<group>"; };
 		E54634930195A385001C927A /* Pods-swiftplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftplay.release.xcconfig"; path = "Target Support Files/Pods-swiftplay/Pods-swiftplay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +85,6 @@
 				89E8B10B22BCD37B00CE1408 /* controllers */,
 				8915144C22BA21010095C3AD /* utils */,
 				890AC19F22BA206A00391145 /* AppDelegate.swift */,
-				890AC1A122BA206A00391145 /* ViewController.swift */,
 				890AC1A622BA206C00391145 /* Assets.xcassets */,
 				890AC1A822BA206C00391145 /* LaunchScreen.storyboard */,
 				890AC1AB22BA206C00391145 /* Info.plist */,
@@ -105,8 +106,10 @@
 		89E8B10B22BCD37B00CE1408 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				89E8B10E22BCDBE300CE1408 /* kYDrawerController.swift */,
+				890AC1A122BA206A00391145 /* ViewController.swift */,
+				89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */,
 				8970531622BCFABD0045C6C8 /* Terminal.swift */,
+				897053DC22BE03220045C6C8 /* DrawerViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -222,7 +225,8 @@
 				8915145622BA561A0095C3AD /* ExColours.swift in Sources */,
 				8970531722BCFABD0045C6C8 /* Terminal.swift in Sources */,
 				8915145422BA456E0095C3AD /* XRect.swift in Sources */,
-				89E8B10F22BCDBE300CE1408 /* kYDrawerController.swift in Sources */,
+				89E8B10F22BCDBE300CE1408 /* AboutViewController.swift in Sources */,
+				897053DD22BE03220045C6C8 /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,15 +367,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63GKWVGJ3K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios_system",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = swiftplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios_system",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ryan.swiftplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,15 +396,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63GKWVGJ3K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios_system",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = swiftplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios_system",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ryan.swiftplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
