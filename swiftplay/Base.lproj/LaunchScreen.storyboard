@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,36 +18,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uR0-ZC-1kf">
-                                <rect key="frame" x="0.0" y="432" width="414" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Swift Play Ground">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="27"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="411" translatesAutoresizingMaskIntoConstraints="NO" id="0ai-6n-dUw">
+                                <rect key="frame" x="0.0" y="264" width="414" height="101.33333333333331"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="84"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <size key="shadowOffset" width="1" height="-1"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ryan.Ark @ 2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="st0-Qc-Mua">
-                                <rect key="frame" x="0.0" y="771" width="414" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryan.Ark @ 2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA0-iF-DBu">
+                                <rect key="frame" x="0.0" y="791.66666666666663" width="414" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ground" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm9-0q-Vol">
+                                <rect key="frame" x="0.0" y="575.66666666666663" width="414" height="64.666666666666629"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="54"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-NW-7xF">
+                                <rect key="frame" x="0.0" y="445.33333333333331" width="414" height="50.333333333333314"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="42"/>
+                                <color key="textColor" red="1" green="0.3802420098" blue="0.26808288289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.93589529969999996" blue="0.72106303679999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0ai-6n-dUw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0bj-2H-QeJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cbs-NW-7xF" secondAttribute="trailing" id="52b-B0-9VM"/>
+                            <constraint firstItem="0ai-6n-dUw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ACw-ZK-Iw0"/>
+                            <constraint firstItem="Cbs-NW-7xF" firstAttribute="top" secondItem="0ai-6n-dUw" secondAttribute="bottom" constant="80" id="JcN-wm-cCE"/>
+                            <constraint firstItem="jm9-0q-Vol" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RXH-QT-ESK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AA0-iF-DBu" secondAttribute="bottom" constant="50" id="V4n-rX-FIL"/>
+                            <constraint firstItem="0ai-6n-dUw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="YjA-zO-Z9M"/>
+                            <constraint firstItem="Cbs-NW-7xF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZqM-wI-4rf"/>
+                            <constraint firstItem="jm9-0q-Vol" firstAttribute="top" secondItem="Cbs-NW-7xF" secondAttribute="bottom" constant="80" id="hDf-kj-BtO"/>
+                            <constraint firstItem="AA0-iF-DBu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sYz-ls-0CF"/>
+                            <constraint firstItem="AA0-iF-DBu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tha-ga-jA8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jm9-0q-Vol" secondAttribute="trailing" id="xMx-j2-AsZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="47.826086956521742" y="375"/>
         </scene>
     </scenes>
 </document>

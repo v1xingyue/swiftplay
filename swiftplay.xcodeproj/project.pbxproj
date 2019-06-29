@@ -16,6 +16,7 @@
 		8915145222BA43D60095C3AD /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915145122BA43D50095C3AD /* Const.swift */; };
 		8915145422BA456E0095C3AD /* XRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915145322BA456E0095C3AD /* XRect.swift */; };
 		8915145622BA561A0095C3AD /* ExColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915145522BA561A0095C3AD /* ExColours.swift */; };
+		895FE8C122C707E3008B782B /* PwdGenerateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895FE8C022C707E3008B782B /* PwdGenerateController.swift */; };
 		8970531722BCFABD0045C6C8 /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970531622BCFABD0045C6C8 /* Terminal.swift */; };
 		897053DD22BE03220045C6C8 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897053DC22BE03220045C6C8 /* DrawerViewController.swift */; };
 		89E8B10F22BCDBE300CE1408 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */; };
@@ -33,6 +34,7 @@
 		8915145122BA43D50095C3AD /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		8915145322BA456E0095C3AD /* XRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRect.swift; sourceTree = "<group>"; };
 		8915145522BA561A0095C3AD /* ExColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExColours.swift; sourceTree = "<group>"; };
+		895FE8C022C707E3008B782B /* PwdGenerateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdGenerateController.swift; sourceTree = "<group>"; };
 		8970531622BCFABD0045C6C8 /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
 		897053DC22BE03220045C6C8 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */,
 				8970531622BCFABD0045C6C8 /* Terminal.swift */,
 				897053DC22BE03220045C6C8 /* DrawerViewController.swift */,
+				895FE8C022C707E3008B782B /* PwdGenerateController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895FE8C122C707E3008B782B /* PwdGenerateController.swift in Sources */,
 				890AC1A222BA206A00391145 /* ViewController.swift in Sources */,
 				8915144E22BA21D00095C3AD /* BaseVc.swift in Sources */,
 				890AC1A022BA206A00391145 /* AppDelegate.swift in Sources */,
@@ -371,6 +375,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios_system",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/swiftplay/ios_system",
 				);
 				INFOPLIST_FILE = swiftplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,6 +386,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios_system",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/swiftplay/ios_system",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ryan.swiftplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +406,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios_system",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/swiftplay/ios_system",
 				);
 				INFOPLIST_FILE = swiftplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -410,6 +417,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios_system",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/swiftplay/ios_system",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ryan.swiftplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";

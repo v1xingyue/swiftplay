@@ -14,6 +14,7 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = Const.DefaultBackGroundColor
     }
     
     func setSlideButton() {
@@ -29,5 +30,20 @@ class BaseViewController: UIViewController {
         if let drawerController = navigationController?.parent as? KYDrawerController {
             drawerController.setDrawerState(.opened, animated: true)
         }
+    }
+    
+    func makeCenterUILabel( width:CGFloat , height:CGFloat, text:String ,fontSize:CGFloat) -> UILabel {
+        let clabel = UILabel(frame: XRect.centerFrame(size: CGPoint(x:width,y:height), position: CGPoint(x:0,y:0)))
+        clabel.text = text
+        clabel.textColor = Const.DefaultLabelColor
+        clabel.textAlignment = NSTextAlignment.center
+        clabel.font = UIFont.systemFont(ofSize: fontSize)
+        return clabel
+    }
+    
+    func makeCenterUIButton( width:CGFloat , height:CGFloat, text:String ,fontSize:CGFloat) -> UIButton {
+        let cbutton = UIButton(frame: XRect.centerFrame(size: CGPoint(x:width,y:height), position: CGPoint(x:0,y:0)))
+        
+        return cbutton
     }
 }

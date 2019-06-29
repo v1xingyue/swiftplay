@@ -12,38 +12,26 @@ import KYDrawerController
 //侧滑菜单控制器
 class DrawerViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    var menus = ["Home","Terminal","About"]
+    var menuControllers = Const.routerControllers
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return menus.count
+        return menuControllers.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "menu")
-        cell.textLabel?.text = menus[indexPath.row]
-        
+        cell.textLabel?.text = menuControllers[indexPath.row]["name"] as? String
         return cell
     }
     
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let item = menus[indexPath.row]
-        var nextController : UIViewController
-        switch item {
-        case "Terminal":
-            nextController = TerminalController()
-        case "About":
-            nextController = AboutViewController()
-        default:
-            nextController = ViewController()
-        }
+        let nextController = menuControllers[indexPath.row]["controller"] as! BaseViewController
         
         if let drawerController = parent as? KYDrawerController {
             drawerController.setDrawerState(.closed, animated: true)
             if let nController = drawerController.mainViewController as? UINavigationController {
-                    nController.setViewControllers([nextController], animated: true)
+                nController.setViewControllers([nextController], animated: true)
             }
-            
         }
     }
     

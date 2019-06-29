@@ -17,6 +17,8 @@ class AboutViewController: BaseViewController {
         view.backgroundColor = UIColor.snowColor()
         title = "- Swift Play About -"
         self.setSlideButton()
+        
+         self.view.addSubview(self.makeCenterUILabel(width: 0, height: 50, text: "About Page", fontSize: 24))
     }
     
 }

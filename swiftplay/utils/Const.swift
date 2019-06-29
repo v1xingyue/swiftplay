@@ -10,7 +10,16 @@ import UIKit
 import Foundation
 
 class Const {
-    static let SPFlashInterval =  1.0 // 3秒
+    
+    static let SPFlashInterval =  2.0 // 3秒
     static let DefaultBackGroundColor = Color.snowColor()
     static let DefaultLabelColor = Color.charcoalColor()
+    
+    static let routerControllers = [
+        ["name":"Home","controller":ViewController()],
+        ["name":"Terminal","controller":TerminalController()],
+        ["name":"Password Generate","controller":PwdGenerateController()],
+        ["name":"About","controller":AboutViewController()],
+    ]
+    
 }
