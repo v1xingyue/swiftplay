@@ -19,8 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="411" translatesAutoresizingMaskIntoConstraints="NO" id="0ai-6n-dUw">
-                                <rect key="frame" x="0.0" y="264" width="414" height="101.33333333333331"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="84"/>
+                                <rect key="frame" x="0.0" y="164" width="414" height="77.333333333333314"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="64"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -33,14 +33,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ground" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm9-0q-Vol">
-                                <rect key="frame" x="0.0" y="575.66666666666663" width="414" height="64.666666666666629"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="54"/>
+                                <rect key="frame" x="0.0" y="453.66666666666669" width="414" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="34"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbs-NW-7xF">
-                                <rect key="frame" x="0.0" y="445.33333333333331" width="414" height="50.333333333333314"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="42"/>
+                                <rect key="frame" x="0.0" y="321.33333333333331" width="414" height="52.333333333333314"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="48"/>
                                 <color key="textColor" red="1" green="0.3802420098" blue="0.26808288289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="2" height="-1"/>
@@ -54,7 +54,7 @@
                             <constraint firstItem="Cbs-NW-7xF" firstAttribute="top" secondItem="0ai-6n-dUw" secondAttribute="bottom" constant="80" id="JcN-wm-cCE"/>
                             <constraint firstItem="jm9-0q-Vol" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RXH-QT-ESK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AA0-iF-DBu" secondAttribute="bottom" constant="50" id="V4n-rX-FIL"/>
-                            <constraint firstItem="0ai-6n-dUw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="YjA-zO-Z9M"/>
+                            <constraint firstItem="0ai-6n-dUw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="YjA-zO-Z9M"/>
                             <constraint firstItem="Cbs-NW-7xF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZqM-wI-4rf"/>
                             <constraint firstItem="jm9-0q-Vol" firstAttribute="top" secondItem="Cbs-NW-7xF" secondAttribute="bottom" constant="80" id="hDf-kj-BtO"/>
                             <constraint firstItem="AA0-iF-DBu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sYz-ls-0CF"/>

@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func makeKYDrawerController() -> UIViewController {
-        let mainViewController   = ViewController()
+        let mainViewController   = HighLightViewController()
         let drawerViewController = DrawerViewController()
         let drawerController     = KYDrawerController(drawerDirection: .left, drawerWidth: 300)
         
@@ -46,8 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 侧滑菜单控制器
         drawerController.drawerViewController = drawerViewController
-        
-        
         
         /* Customize
          drawerController.drawerDirection = .Right

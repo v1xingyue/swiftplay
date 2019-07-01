@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		895FE8C122C707E3008B782B /* PwdGenerateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895FE8C022C707E3008B782B /* PwdGenerateController.swift */; };
 		8970531722BCFABD0045C6C8 /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970531622BCFABD0045C6C8 /* Terminal.swift */; };
 		897053DD22BE03220045C6C8 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897053DC22BE03220045C6C8 /* DrawerViewController.swift */; };
+		89B413F522C88D5D00C7686A /* HighLightCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B413F422C88D5D00C7686A /* HighLightCodeController.swift */; };
+		89B413F722C98E5500C7686A /* python37.zip in Resources */ = {isa = PBXBuildFile; fileRef = 89B413F622C98E5500C7686A /* python37.zip */; };
+		89B413FD22C9900800C7686A /* NSObject+RunPython.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B413FC22C9900800C7686A /* NSObject+RunPython.m */; };
 		89E8B10F22BCDBE300CE1408 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,11 @@
 		895FE8C022C707E3008B782B /* PwdGenerateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdGenerateController.swift; sourceTree = "<group>"; };
 		8970531622BCFABD0045C6C8 /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
 		897053DC22BE03220045C6C8 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		89B413F422C88D5D00C7686A /* HighLightCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLightCodeController.swift; sourceTree = "<group>"; };
+		89B413F622C98E5500C7686A /* python37.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = python37.zip; sourceTree = "<group>"; };
+		89B413FA22C9900800C7686A /* swiftplay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftplay-Bridging-Header.h"; sourceTree = "<group>"; };
+		89B413FB22C9900800C7686A /* NSObject+RunPython.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RunPython.h"; sourceTree = "<group>"; };
+		89B413FC22C9900800C7686A /* NSObject+RunPython.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RunPython.m"; sourceTree = "<group>"; };
 		89E8B10E22BCDBE300CE1408 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D32526880F06A23A47DCF993 /* Pods-swiftplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftplay.debug.xcconfig"; path = "Target Support Files/Pods-swiftplay/Pods-swiftplay.debug.xcconfig"; sourceTree = "<group>"; };
 		E54634930195A385001C927A /* Pods-swiftplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftplay.release.xcconfig"; path = "Target Support Files/Pods-swiftplay/Pods-swiftplay.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +74,7 @@
 		890AC19322BA206A00391145 = {
 			isa = PBXGroup;
 			children = (
+				89B413F622C98E5500C7686A /* python37.zip */,
 				890AC19E22BA206A00391145 /* swiftplay */,
 				890AC19D22BA206A00391145 /* Products */,
 				752AD6236319F7FB13B5F08F /* Pods */,
@@ -101,6 +110,9 @@
 				8915144D22BA21D00095C3AD /* BaseVc.swift */,
 				8915145322BA456E0095C3AD /* XRect.swift */,
 				8915145522BA561A0095C3AD /* ExColours.swift */,
+				89B413FB22C9900800C7686A /* NSObject+RunPython.h */,
+				89B413FC22C9900800C7686A /* NSObject+RunPython.m */,
+				89B413FA22C9900800C7686A /* swiftplay-Bridging-Header.h */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -113,6 +125,7 @@
 				8970531622BCFABD0045C6C8 /* Terminal.swift */,
 				897053DC22BE03220045C6C8 /* DrawerViewController.swift */,
 				895FE8C022C707E3008B782B /* PwdGenerateController.swift */,
+				89B413F422C88D5D00C7686A /* HighLightCodeController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -136,6 +149,7 @@
 				890AC19822BA206A00391145 /* Sources */,
 				890AC19922BA206A00391145 /* Frameworks */,
 				890AC19A22BA206A00391145 /* Resources */,
+				188959B2184E32C032249B9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +172,7 @@
 				TargetAttributes = {
 					890AC19B22BA206A00391145 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -186,12 +201,30 @@
 			files = (
 				890AC1AA22BA206C00391145 /* LaunchScreen.storyboard in Resources */,
 				890AC1A722BA206C00391145 /* Assets.xcassets in Resources */,
+				89B413F722C98E5500C7686A /* python37.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		188959B2184E32C032249B9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftplay/Pods-swiftplay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftplay/Pods-swiftplay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftplay/Pods-swiftplay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BBBE39926C9361860E62CADE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +263,8 @@
 				8970531722BCFABD0045C6C8 /* Terminal.swift in Sources */,
 				8915145422BA456E0095C3AD /* XRect.swift in Sources */,
 				89E8B10F22BCDBE300CE1408 /* AboutViewController.swift in Sources */,
+				89B413FD22C9900800C7686A /* NSObject+RunPython.m in Sources */,
+				89B413F522C88D5D00C7686A /* HighLightCodeController.swift in Sources */,
 				897053DD22BE03220045C6C8 /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +404,7 @@
 			baseConfigurationReference = D32526880F06A23A47DCF993 /* Pods-swiftplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63GKWVGJ3K;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -390,6 +426,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ryan.swiftplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftplay/utils/swiftplay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -400,6 +438,7 @@
 			baseConfigurationReference = E54634930195A385001C927A /* Pods-swiftplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63GKWVGJ3K;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -421,6 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ark.ryan.swiftplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftplay/utils/swiftplay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

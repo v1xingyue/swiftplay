@@ -14,6 +14,7 @@ class PwdGenerateController : BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setSlideButton()
+        
     }
     
 }

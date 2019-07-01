@@ -10,4 +10,11 @@
 
 @implementation NSObject (RunPython)
 
++(Boolean)run{
+   
+    return true;
+}
+
+
+
 @end

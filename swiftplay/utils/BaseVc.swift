@@ -44,6 +44,10 @@ class BaseViewController: UIViewController {
     func makeCenterUIButton( width:CGFloat , height:CGFloat, text:String ,fontSize:CGFloat) -> UIButton {
         let cbutton = UIButton(frame: XRect.centerFrame(size: CGPoint(x:width,y:height), position: CGPoint(x:0,y:0)))
         
+        cbutton.setTitle(text, for: UIControl.State.normal)
+        cbutton.titleLabel?.font = UIFont.systemFont(ofSize:fontSize)
+        cbutton.layer.backgroundColor = UIColor.grapeColor().cgColor
+        cbutton.layer.cornerRadius = 10
         return cbutton
     }
 }

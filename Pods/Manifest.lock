@@ -1,20 +1,24 @@
 PODS:
+  - Highlightr (2.1.0)
   - KYDrawerController (2.1.0)
   - SCLAlertView (0.8)
 
 DEPENDENCIES:
+  - Highlightr
   - KYDrawerController
   - SCLAlertView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Highlightr
     - KYDrawerController
     - SCLAlertView
 
 SPEC CHECKSUMS:
+  Highlightr: 595f3e100737c8de41113385da8bd0b5b65212c6
   KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
 
-PODFILE CHECKSUM: 2a2e7a4e06ea7d15803c7f50bfb904c4345200a0
+PODFILE CHECKSUM: 2db83f9ffabea140720673523565466454f4119d
 
 COCOAPODS: 1.7.0.beta.2

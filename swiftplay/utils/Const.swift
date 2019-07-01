@@ -19,7 +19,9 @@ class Const {
         ["name":"Home","controller":ViewController()],
         ["name":"Terminal","controller":TerminalController()],
         ["name":"Password Generate","controller":PwdGenerateController()],
-        ["name":"About","controller":AboutViewController()],
+        ["name":"Code HighLight","controller":HighLightViewController()],
+        ["name":"About","controller":AboutViewController()]
+        
     ]
     
 }

@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (RunPython)
 
++(Boolean)run;
+
 @end
 
 NS_ASSUME_NONNULL_END
